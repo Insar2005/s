@@ -1,0 +1,8 @@
+[
+  {"id":"tea","prompt":"Купил чай за 100 сомов","expectedTool":"create_transaction"},
+  {"id":"starlink","prompt":"Вчера купил комплект Starlink за 1000 долларов","expectedTool":"create_transaction"},
+  {"id":"correction","prompt":"Нет, последний расход был 850 сом, исправь","expectedTool":"update_last_transaction"},
+  {"id":"rename","prompt":"Переименуй цель Relax в Спорт","expectedTool":"rename_goal"},
+  {"id":"bulk-delete","prompt":"Удали все четыре тестовые цели Relax, Test, Q и S","expectedTool":"propose_bulk_delete"},
+  {"id":"report","prompt":"Как мой прогресс за последние 30 дней? Только по данным, без выдумывания","expectedTool":"get_progress_report"}
+]
